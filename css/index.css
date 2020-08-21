@@ -1,0 +1,176 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+
+header {
+    height: 10vh;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, .5) 0px 4px 20px;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 40%;
+    height: 90px;
+}
+
+.navbar {
+    flex: 3;
+    background: #eee
+}
+
+.navbar h1 {
+    margin: auto;
+    font-size: 2em;
+    width: 140px;
+    height: 40%
+}
+
+.navbar nav {
+    margin: 5px;
+    height: 40%
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    margin: auto 1.5em;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-size: 1.2em
+}
+
+.navbar nav ul li a:hover {
+    color: #000
+}
+
+
+/* WRAPPER */
+
+.wrapper {
+    height: 83vh;
+    display: flex
+}
+
+
+/* images */
+
+.images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.images h2 {
+    font-size: 2.2em;
+    margin: 0;
+    text-align: center;
+}
+
+.images-item {
+    height: 13em;
+    position: relative
+}
+
+.images-item h4 {
+    position: absolute;
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    font-size: 1.2em;
+    bottom: -25px;
+    text-align: center;
+}
+
+.images-1 {
+    background: url('https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_960_720.jpg') no-repeat;
+    background-size: cover;
+}
+
+.images-2 {
+    background: url('https://cdn.pixabay.com/photo/2016/10/11/09/26/sports-shoes-1730937_960_720.jpg') no-repeat;
+    background-size: cover;
+}
+
+.images-3 {
+    background: url('https://cdn.pixabay.com/photo/2017/02/13/02/06/reebok-2061623_960_720.jpg') no-repeat;
+    background-size: cover;
+}
+
+.content {
+    flex: 3;
+}
+
+.content h2 {
+    font-size: 2.2em;
+    margin: 0;
+    padding: 3px;
+}
+
+.content article {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.content article p {
+    line-height: 2em;
+    text-align: justify
+}
+
+.content table {
+    width: 90%;
+    margin: 8em auto 2em auto;
+    border-collapse: collapse;
+}
+
+.thead {
+    height: 50px;
+    background: #eee
+}
+
+.tbody {
+    height: 45px;
+    border-bottom: 1px solid rgb(145, 145, 145);
+}
+
+.tbody:hover {
+    background: rgb(246, 243, 243);
+}
+
+footer {
+    height: 7vh;
+    background: #000
+}
+
+footer p {
+    margin: auto;
+    color: #fff;
+    width: 600px;
+    text-align: center;
+    padding: 1.2em 0
+}
